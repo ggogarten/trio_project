@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root 'alchemy#index'
   post 'analyze' => 'alchemy#connect'
   # The priority is based upon order of creation: first created -> highest priority.
