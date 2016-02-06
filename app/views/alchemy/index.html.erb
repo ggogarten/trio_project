@@ -1,0 +1,13 @@
+<h1>Analyze This!</h1>
+
+<!-- <p>type text here</p>
+<input type="text">
+
+
+<button value="submit"></button> -->
+
+<%= form_tag("/analyze", method: "post")  do %>
+ <%= label_tag(:text, "Analyze this Motherfucka Watson:") %>
+ <%= text_field_tag(:text) %>
+ <%= submit_tag("Search") %>
+<% end %>
