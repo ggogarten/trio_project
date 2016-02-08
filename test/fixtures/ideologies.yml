@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  concept: MyString
+  relevance: 1.5
+  speech_id: 
+
+two:
+  concept: MyString
+  relevance: 1.5
+  speech_id: 
